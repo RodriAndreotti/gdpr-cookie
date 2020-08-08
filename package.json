@@ -1,7 +1,7 @@
 {
   "name": "gpdr-cookie",
   "version": "1.0.0",
-  "description": "Javascript plugin to help manage aGDPR and LGDP (Brazil) cookies consent banner.",
+  "description": "Javascript plugin to help manage GDPR and LGDP (Brazil) cookies consent banner.",
   "main": "index.js",
   "repository": "https://github.com/RodriAndreotti/gpdr-cookie.git",
   "author": "Rodrigo Texeira Andreotti <ro.andriotti@gmail.com>",
