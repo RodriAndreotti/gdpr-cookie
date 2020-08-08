@@ -7,5 +7,5 @@
   "author": "Rodrigo Texeira Andreotti <ro.andriotti@gmail.com>",
   "license": "MIT",
   "private": false,
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" } 
+  "publishConfig": { "registry": "https://npm.pkg.github.com/rodriandreotti" } 
 }
