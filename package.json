@@ -1,5 +1,5 @@
 {
-  "name": "gpdr-cookie",
+  "name": "@rodriandreotti/gpdr-cookie",
   "version": "1.0.0",
   "description": "Javascript plugin to help manage GDPR and LGDP (Brazil) cookies consent banner.",
   "main": "index.js",
