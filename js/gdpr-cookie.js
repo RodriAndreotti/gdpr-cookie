@@ -417,17 +417,17 @@
 
             // Build cookie message to display later on
             var cookieMessage = (elements.container = $("<div class=gdprcookie>")).append([
-                (elements.introContainer = $("<div class=gdprcookie-intro/>")).append([
+                (elements.introContainer = $("<div class=gdprcookie-intro>")).append([
                     settings.title ? $("<h1/>", { text: settings.title }).get(0) : undefined,
                     settings.message ? $("<p/>", { html: settings.message }).get(0) : undefined
                 ]).get(0),
-                (elements.typesContainer = $("<div class=gdprcookie-types/>")).hide().append([
+                (elements.typesContainer = $("<div class=gdprcookie-types>")).hide().append([
                     settings.subtitle ? $("<h2/>", { text: settings.subtitle }).get(0) : undefined,
                     settings.submessage ? $("<p/>", { html: settings.submessage }).get(0) : undefined,
                     elements.types.get(0),
-                    $("<div class=gdprcookie-type-description/>").hide()
+                    $("<div class=gdprcookie-type-description>").hide()
                 ]).get(0),
-                $("<div class=gdprcookie-buttons/>").append([
+                $("<div class=gdprcookie-buttons>").append([
                     (elements.buttons.accept = $("<button/>", { type: "button", text: settings.acceptBtnLabel, click: acceptClick })).get(0),
                     (elements.buttons.advanced = $("<button/>", { type: "button", text: settings.advancedBtnLabel, click: advancedClick })).get(0)
                 ]).get(0)
