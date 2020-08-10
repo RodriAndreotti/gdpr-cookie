@@ -37,6 +37,8 @@ $.gdprcookie.init({
   viewDescriptionLabel: 'View details',
   hideDescriptionLabel: 'Hide details',
   viewDescriptionChar: '?',
+
+  bodyIcon: 'img/consent.png',
   
   cookieTypes: [
     {

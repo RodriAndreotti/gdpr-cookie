@@ -1,6 +1,6 @@
 {
   "name": "@rodriandreotti/gdpr-cookie",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Javascript plugin to help manage GDPR and LGDP (Brazil) cookies consent banner.",
   "main": "index.js",
   "repository": "https://github.com/RodriAndreotti/gdpr-cookie.git",

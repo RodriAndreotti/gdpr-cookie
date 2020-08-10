@@ -143,7 +143,10 @@
             renderDescriptionAsDiv: false,
             viewDescriptionLabel: 'View details',
             hideDescriptionLabel: 'Hide details',
-            viewDescriptionChar: '?'
+            viewDescriptionChar: '?',
+
+            // Body Icon
+            bodyIcon: ''
         };
 
         // Set defaults
@@ -203,6 +206,7 @@
 
         var elements = {
             container: undefined,
+            bodyIcon: undefined,
             introContainer: undefined,
             types: undefined,
             typesContainer: undefined,
@@ -417,6 +421,15 @@
 
             // Build cookie message to display later on
             var cookieMessage = (elements.container = $("<div class=gdprcookie>")).append([
+                (elements.introContainer = function () {
+                    let el = undefined;
+                    if(settings.bodyIcon) {
+                        el = $('<div class=gdprcookie-body-icon>').append(
+                            $('<img src=' + settings.bodyIcon + '>')
+                        )
+                    }
+                    return el;
+                }),
                 (elements.introContainer = $("<div class=gdprcookie-intro>")).append([
                     settings.title ? $("<h1/>", { text: settings.title }).get(0) : undefined,
                     settings.message ? $("<p/>", { html: settings.message }).get(0) : undefined

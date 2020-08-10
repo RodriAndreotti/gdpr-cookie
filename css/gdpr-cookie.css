@@ -23,6 +23,11 @@
     color: inherit;
 }
 
+.gdprcookie .gdprcookie-body-icon {
+    display: flex;
+    justify-content: center;
+}
+
 .gdprcookie a.gdpr-details {
     border: none;
     display: inline;

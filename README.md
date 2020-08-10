@@ -53,6 +53,7 @@ Here a example of initialization of plugin:
 	    viewDescriptionLabel:  'View details',
 	    hideDescriptionLabel:  'Hide details',
 	    viewDescriptionChar:  '?',
+		bodyIcon: '',
 	    cookieTypes: [
 		    {
 			    type:  "Essential",
@@ -100,3 +101,8 @@ Now we have four new properties that allow you to view and customize the descrip
 | hideDescriptionLabel | Label for hide description link |
 | viewDescriptionChar | Icon to view description link |
 
+### Included support for Body Icon
+
+| Property | Behavior |
+|--|--|
+| bodyIcon | Path to self hosted Icon or full uri to an image |
